@@ -1,0 +1,80 @@
+@media screen and (max-width: 1000px) {
+    .conteiner-inner{
+        max-width: 90%;
+    }
+    .main-header{
+        width: 80%;
+    }
+    .form-header {
+        display: block;
+    }
+    .block-full-name,
+    .form-header,
+    .application{
+        width: 100%;
+    }
+    .surname,
+    .name,
+    .patronymic{
+        /* width: 383px; */
+        width: 100%;
+        margin-bottom: 22px;
+    }
+    .row-form{
+        margin-bottom: 12px;
+    }
+    .row-form-ap{
+        margin-bottom: 50px;
+    }
+    .contact{
+        width: 100%;
+    }
+    .contact-info{
+        width: 100%;
+    }
+    .block-icon {
+        align-items: center;
+        padding: 14px 50px;
+        flex-direction: column;
+    }
+    .block-contact{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .tytle {
+        font-size: 40px;
+    }
+    .block-1 {
+        padding: 20px 15px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .tytle {
+        font-size: 29px;
+    }
+    .form-header {
+        padding: 0 0;
+    }
+    .block-1 {
+        padding: 20px 0;
+    }
+    .label-app {
+        position: relative;
+        padding-left: 63px;
+    }
+    .label-app::before {
+        top: 15px;
+    }
+    .label-app:after {
+        top: 23px;
+    }
+    .sub {
+        padding: 11px 40px;
+    }
+    .intes {
+        margin-left: 38px;
+        padding: 20px 4px;
+    }
+}   
